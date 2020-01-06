@@ -1,0 +1,14 @@
+{
+  "name":"zeitgeist",
+  "buildsystem":"autotools",
+  "config-opts":[
+    "--enable-telepathy=false"
+  ],
+  "sources":[
+    {
+      "type":"git",
+      "url":"https://gitlab.freedesktop.org/zeitgeist/zeitgeist.git",
+      "commit": "b5c00e80189fd59a059a95c4e276728a2492cb89"
+    }
+  ]
+}
